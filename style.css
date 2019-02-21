@@ -28,6 +28,29 @@ li a:hover:not(.active) {
 .active {
   background-color: #008CBA;
 }
-p{
+p {
   margin: 0px 10px;
+}
+
+.column {
+  margin-left: 0%;
+  padding: 0px 16px;
+  height: 1000px;
+}
+
+h1.big {
+  line-height:20;
+}
+
+section {
+  font:  20px verdana;
+}
+
+header {
+  border: 25px #a6a6a6
+
+}
+
+body{
+  background-repeat: no-repeat;
 }
