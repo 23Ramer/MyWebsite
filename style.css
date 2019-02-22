@@ -51,6 +51,10 @@ header {
 
 }
 
-body{
+body {
   background-repeat: no-repeat;
+}
+
+img {
+  object-fit: contain;
 }
