@@ -36,6 +36,7 @@ p {
   margin-left: 0%;
   padding: 0px 16px;
   height: 1000px;
+  column-count: 1;
 }
 
 h1.big {
