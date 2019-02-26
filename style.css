@@ -44,6 +44,7 @@ h1.big {
 
 section {
   font:  20px verdana;
+  float: left;
 }
 
 header {
