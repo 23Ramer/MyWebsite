@@ -1,3 +1,4 @@
+/*Default  */
 ul {
   list-style-type: none;
   margin: 0;
@@ -6,13 +7,12 @@ ul {
   background-color: #474747;
   position: fixed;
   width: 100%;
-  top: 0
+  top: 0;
 }
-
 li {
   float: left;
+  text-transform: capitalize;
 }
-
 li a {
   display: block;
   color: white;
@@ -21,51 +21,61 @@ li a {
   text-decoration: none;
   /*box-shadow: 5px 5px 10px darkgrey;*/
 }
+.ikea {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 
 li a:hover:not(.active) {
   background-color: #303030;
 }
-
+.nav li:last-child {
+  margin-left: auto;
+}
 .active {
   background-color: #303030;
 }
+
+
 p {
   margin: 0px 0px;
 }
-
 h1.big {
   line-height:0;
 }
-
 section {
   font:  20px verdana;
 }
-
 header {
   border: 0px #a6a6a6
 
 }
-
 body {
   background-repeat: no-repeat;
+  margin: auto 0;
 }
+
 
 img {
   object-fit: contain;
 }
+
+
 .grid {
   display: grid;
   grid-template-columns: ;
   grid-template-rows: repeat(3,auto);
   grid-row-gap: 1vh;
 }
-
-
 .grid a {
   text-decoration: none;
   text-transform: uppercase;
 }
-
 main {
   display: grid;
   grid-auto-rows: repeat(2,1fr);
@@ -73,9 +83,11 @@ main {
 
 }
 
+
 img {
   max-width: 100%;
 }
+
 
 main section.introduction {
   display: grid;
@@ -83,21 +95,19 @@ main section.introduction {
   grid-template-rows: minmax(250px,1fr);
   grid-gap: 20px;
 }
-
 .intro-left {
   background-color: ;
 }
-
 main section.info {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 20px;
 }
 
+
 footer p {
   text-align: center;
 }
-
 h1 {
   text-align: center;
 
@@ -105,3 +115,5 @@ h1 {
 h2 {
   text align: center;
 }
+
+/*MEDIA QUERIES*/
