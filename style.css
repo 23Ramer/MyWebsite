@@ -19,7 +19,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
+
 }
 .ikea {
   display: block;
@@ -44,6 +44,7 @@ li a:hover:not(.active) {
 
 p {
   margin: 0px 0px;
+  font-size: 20px;
 }
 h1.big {
   line-height:0;
@@ -110,10 +111,13 @@ footer p {
 }
 h1 {
   text-align: center;
+  padding: 50px;
+  background-color: #a6a6a6;
 
 }
 h2 {
   text align: center;
 }
 
+#intropad
 /*MEDIA QUERIES*/
