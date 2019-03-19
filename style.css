@@ -46,9 +46,7 @@ p {
   margin: 0px 0px;
   font-size: 20px;
 }
-h1.big {
-  line-height:0;
-}
+
 section {
   font:  20px verdana;
 }
@@ -66,6 +64,8 @@ img {
   object-fit: contain;
 }
 
+
+/*Grid Box*/
 
 .grid {
   display: grid;
