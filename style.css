@@ -119,5 +119,7 @@ h2 {
   text align: center;
 }
 
-#intropad
+#intropad {
+  padding: 50px;
+}
 /*MEDIA QUERIES*/
