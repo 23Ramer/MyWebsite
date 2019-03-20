@@ -93,6 +93,8 @@ img {
 }
 
 
+
+
 main section.introduction {
   display: grid;
   grid-template-columns: 1fr 2fr;
