@@ -65,6 +65,9 @@ img {
 }
 
 
+
+
+
 /*Grid Box*/
 
 .grid {
@@ -90,6 +93,8 @@ img {
 }
 
 
+
+
 main section.introduction {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -106,9 +111,17 @@ main section.info {
 }
 
 
+
+/*Text Alterations*/
+
 footer p {
   text-align: center;
 }
+
+footer {
+  padding: 30px;
+}
+
 h1 {
   text-align: center;
   padding: 50px;
@@ -122,4 +135,7 @@ h2 {
 #intropad {
   padding: 50px;
 }
+
+
+
 /*MEDIA QUERIES*/
