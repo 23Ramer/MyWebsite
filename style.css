@@ -168,6 +168,13 @@ h2 {
   h1{
     padding: 70px;
   }
+  li:last-child {
+    float: left;
+  }
+  li {
+    font-size: 15px;
+  }
+
 }
 
 
