@@ -1,4 +1,4 @@
-/*Default  */
+/* Navigation Settings  */
 ul {
   list-style-type: none;
   margin: 0;
@@ -46,6 +46,8 @@ li a:hover:not(.active) {
 }
 
 
+/* Text Settings */
+
 p {
   margin: 0px 0px;
   font-size: 20px;
@@ -75,7 +77,7 @@ article {
 
 
 
-/*Grid Box*/
+/* Grid Settings */
 
 .grid {
   display: grid;
@@ -121,7 +123,7 @@ main section.info {
 
 
 
-/*Text Alterations*/
+/* Text Alterations */
 
 footer p {
   text-align: center;
@@ -149,7 +151,7 @@ h2 {
 
 
 
-/*MEDIA QUERIES*/
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 600px) {
   main section.info{
@@ -180,7 +182,7 @@ h2 {
 
 
 
-/*Other Ids*/
+/* Other Ids */
 
 #firstimg {
   max-width: 95%;
